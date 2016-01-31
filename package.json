@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lib/data && node lib"
+    "query": "node lib/data",
+    "server": "node lib",
+    "start": "npm run query && npm run server"
   },
   "repository": {
     "type": "git",
