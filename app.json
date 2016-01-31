@@ -1,0 +1,12 @@
+{
+	"name": "dota2-responses-slack-bot",
+	"description": "A Slack bot referencing Dota 2 responses to appropriate chat messages.",
+	"repository": "https://github.com/srph/dota2-responses-slack-bot",
+	"keywords": ["slack", "dota", "dota2", "announcer"],
+	"env": {
+		"SLACK_API_TOKEN": {
+      		"description": "Your team's Slack API token.",
+      		"value": "CHANGE_ME"
+		}
+	}
+}
