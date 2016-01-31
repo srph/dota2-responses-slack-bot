@@ -2,6 +2,10 @@
 A Slack bot referencing Dota 2 responses to appropriate chat messages.
 ![preview](preview.png)
 
+## Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Paste your *SLACK_API_TOKEN*.
+
 ## Running
 ```bash
 npm i
