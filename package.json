@@ -2,7 +2,7 @@
   "name": "dota2-responses-slack-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "axios": "^0.9.1",
     "htmlparser": "^1.7.7",
+    "slackbots": "^0.5.1",
     "soupselect": "^0.2.0"
   },
   "devDependencies": {
