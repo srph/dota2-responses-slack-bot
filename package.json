@@ -21,9 +21,8 @@
   "homepage": "https://github.com/srph/dota2-responses-slack-bot#readme",
   "dependencies": {
     "axios": "^0.9.1",
-    "htmlparser": "^1.7.7",
+    "cheerio": "^0.20.0",
     "slackbots": "^0.5.1",
-    "soupselect": "^0.2.0",
     "trim-character": "^2.0.1"
   },
   "devDependencies": {
