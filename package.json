@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha lib/**/*.spec.js --compilers js:babel-register",
+    "test": "./node_modules/.bin/mocha --require babel-polyfill --compilers js:babel-register --recursive lib",
     "query": "node lib/data",
     "server": "node lib",
     "start": "npm run query && npm run server"
