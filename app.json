@@ -7,6 +7,10 @@
 		"SLACK_API_TOKEN": {
       		"description": "Your team's Slack API token.",
       		"value": "CHANGE_ME"
+		},
+		"SLACK_BOT_NAME": {
+      		"description": "The bot's name",
+      		"value": "CHANGE_ME"
 		}
 	}
 }
