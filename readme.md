@@ -19,8 +19,8 @@ It should be working now. Happy spamming, people!
 To contribute, you will need to create your own team and setup a bot as well.
 ```bash
 npm i
-SLACK_API_TOKEN=<my-token> npm run query
-npm run server
+npm run query
+SLACK_API_TOKEN=<my-token> npm run server
 ```
 Note that it may take a long time the first around because we're querying the data from [Dota 2 Gamepedia](http://dota2.gamepedia.com/).
 
